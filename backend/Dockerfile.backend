@@ -44,7 +44,7 @@
 
 FROM python:3.6
 
-
+USER root
 
 ENV WORKING_DIR /app/taisite
 ENV AUTOTEST_PLATFORM_MONGO_HOST=0.0.0.0
