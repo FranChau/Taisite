@@ -4,7 +4,7 @@ const prodEnv = require('./prod.env')
 
 module.exports = merge(prodEnv, {
   NODE_ENV: '"development"',
-  BASE_API: '"http://localhost:5050"',
+  BASE_API: '"http://120.79.213.179:5050"',
   CASE_IMPORT_URI: '"/api/importTestCases"'
 })
 
